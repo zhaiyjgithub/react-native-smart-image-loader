@@ -17,7 +17,7 @@ public class RCTLoaderImageViewPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+   // @Override // not need after 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
