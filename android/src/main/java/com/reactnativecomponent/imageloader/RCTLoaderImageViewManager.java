@@ -335,16 +335,16 @@ public class RCTLoaderImageViewManager extends SimpleViewManager<RCTLoaderImageV
             this.fadeInDuration = map.getInt("fadeInDuration");
         }
 
-        this.loadingImage = map.getString("placeholder");
+        //this.loadingImage = map.getString("placeholder");
 
-        this.emptyUriImage = map.getString("placeholder");
+       // this.emptyUriImage = map.getString("placeholder");
 
-        this.failImage = map.getString("placeholder");
+       // this.failImage = map.getString("placeholder");
 
         String src = map.getString("src");
 
-        String rowID = map.getString("rowID");
-        view.setRowID(rowID);
+       // String rowID = map.getString("rowID");
+      //  view.setRowID(rowID);
 
         initConfig(context);
         initOptions();
