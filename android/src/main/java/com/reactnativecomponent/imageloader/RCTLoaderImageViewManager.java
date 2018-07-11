@@ -335,6 +335,12 @@ public class RCTLoaderImageViewManager extends SimpleViewManager<RCTLoaderImageV
             this.fadeInDuration = map.getInt("fadeInDuration");
         }
 
+        if (map.hasKey("mode")) {
+            String mode = map.getString("mode");
+            if (mode.equals("fit") ) {
+                view.setScaleType(ImageView.ScaleType.FIT_XY);
+            }
+        }
         //this.loadingImage = map.getString("placeholder");
 
        // this.emptyUriImage = map.getString("placeholder");
