@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
-
+import android.widget.ImageView;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.controller.AbstractDraweeControllerBuilder;
 import com.facebook.react.bridge.ReactMethod;
