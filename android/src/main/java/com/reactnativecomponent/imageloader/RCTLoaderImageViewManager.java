@@ -338,6 +338,8 @@ public class RCTLoaderImageViewManager extends SimpleViewManager<RCTLoaderImageV
         if (map.hasKey("mode")) {
             String mode = map.getString("mode");
             if (mode.equals("fit") ) {
+                view.setScaleType(ImageView.ScaleType.FIT_CENTER);
+            }else {
                 view.setScaleType(ImageView.ScaleType.FIT_XY);
             }
         }
